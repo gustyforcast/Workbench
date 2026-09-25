@@ -24,6 +24,10 @@ Senior subsea engineer (FEA, Python automation, pipeline integrity) who also shi
 
 See `audit.md` for the current state of all repos and the recommended action list.
 
+## Commercial app policy
+
+StillTime, PhotoFlow, and any future paid app stay private permanently. Public repos are limited to tools, libraries, and learning work. Never suggest making a commercial app repo public.
+
 ## Working in this repo
 
 Plain Markdown files only. No special tooling required — edit in any editor or directly on GitHub. Commit messages should be short and descriptive (`add initial portfolio audit`, `update showcase checklist`, etc.).
