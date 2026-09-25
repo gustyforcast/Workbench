@@ -49,7 +49,7 @@ _Not counted: `JohnClema/pretty-fly-for-a-gemini` — not owned by this account.
 | **Idea-engine** | Elegant single-file Python LLM pipeline (no pip installs, Claude + Ollama + SQLite + self-contained HTML dashboard). Shows Python automation craft clearly. | README, licence, one usage screenshot of the dashboard |
 | **Advent\_of\_code** | Already public; shows algorithmic Python fluency annually. | A proper README (year coverage, language, brief approach notes) |
 
-**Critical portfolio gap noted:** There are currently _no repos_ demonstrating subsea engineering, FEA, or pipeline-integrity automation — the core of your professional identity. Consider extracting or creating at least one open example (e.g. a Python pipe-stress post-processor, a wall-thickness calculator, or a parametric load-envelope tool). Even a small, well-documented specimen would be the most differentiating item on this account.
+**Engineering showcase — planned repo:** There are currently no repos demonstrating subsea engineering work. The most differentiating addition would be a new public Python library implementing DNV subsea design checks (pipeline wall thickness to DNV-ST-F101, free-span VIV screening, on-bottom stability per DNV-RP-F109), with a pytest suite and worked examples. See the action checklist below.
 
 ---
 
@@ -95,7 +95,7 @@ Suggested pinned set (GitHub allows 6):
 2. `PhotoFlow` — Swift / iOS
 3. `Idea-engine` — Python automation
 4. `Advent_of_code` — Python
-5. _(future)_ subsea-python-tools — Python / FEA
+5. _(planned)_ dnv-subsea-checks — Python / subsea engineering
 6. `Workbench` — portfolio meta / planning hub _(optional)_
 
 ---
@@ -109,5 +109,5 @@ Suggested pinned set (GitHub allows 6):
 - [ ] **Add licence** to each Showcase repo
 - [ ] **Add screenshots / demo GIF** to `StillTime`, `PhotoFlow`, `Idea-engine`
 - [ ] **Rename** `app_dev_tool` to something accurate (e.g. `paper-trading-tool`)
-- [ ] **Create** at least one subsea/FEA Python repo to anchor the engineering half of your profile
+- [ ] **Create** `dnv-subsea-checks` — public Python library for DNV pipeline design checks (wall thickness DNV-ST-F101, free-span VIV, on-bottom stability DNV-RP-F109) with pytest suite and worked examples
 - [ ] **Pin** the four showcase repos once polished
