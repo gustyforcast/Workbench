@@ -44,8 +44,6 @@ _Not counted: `JohnClema/pretty-fly-for-a-gemini` — not owned by this account.
 
 | Repo | Reason | Missing |
 |---|---|---|
-| **StillTime** | Technically rich SwiftUI app — Pomodoro + procedural audio + AVSpeech AI guidance + binaural beats + SwiftData persistence + full test suite. Best demonstration of iOS depth. | Public README, App Store screenshots, licence (MIT), description tags |
-| **PhotoFlow** | Active Swift iOS photo-workflow app; clearly your most recent native project; complements the subsea/Python story with real-world Swift shipping. | README, screenshots, licence |
 | **Idea-engine** | Elegant single-file Python LLM pipeline (no pip installs, Claude + Ollama + SQLite + self-contained HTML dashboard). Shows Python automation craft clearly. | README, licence, one usage screenshot of the dashboard |
 | **Advent\_of\_code** | Already public; shows algorithmic Python fluency annually. | A proper README (year coverage, language, brief approach notes) |
 
@@ -70,7 +68,9 @@ _Not counted: `JohnClema/pretty-fly-for-a-gemini` — not owned by this account.
 
 | Repo | Reason |
 |---|---|
-| **Workbench** | This planning hub. Currently public with a stub README; the CLAUDE.md added by this PR gives it purpose. |
+| **StillTime** | Commercial iOS app — source stays private permanently. Showcased via the App Store. |
+| **PhotoFlow** | Commercial iOS app — source stays private permanently. In development. |
+| **Workbench** | This planning hub. Currently public with a stub README; the CLAUDE.md gives it purpose. |
 | **dev\_portfolio** | Active working space: Next.js portfolio site + photo CLI tools + Hugo archive. Too scattered to showcase directly; keep private. |
 | **agent-sandbox** | Active Claude agent experiments; private experimentation space. |
 | **app\_dev\_tool** | Paper-trading planner with Cloudflare backend. Confusingly named (the README title is "Investing\_tool"). Keep private until cleaned up. |
@@ -89,14 +89,18 @@ _Not counted: `JohnClema/pretty-fly-for-a-gemini` — not owned by this account.
 
 ## Step 4 — Recommended pinned profile (after polish)
 
-Suggested pinned set (GitHub allows 6):
+Suggested pinned set (GitHub allows 6). iOS apps are showcased via the App Store; only public repos are pinned here.
 
-1. `StillTime` — Swift / iOS
-2. `PhotoFlow` — Swift / iOS
-3. `Idea-engine` — Python automation
-4. `Advent_of_code` — Python
-5. _(planned)_ dnv-subsea-checks — Python / subsea engineering
-6. `Workbench` — portfolio meta / planning hub _(optional)_
+1. `Idea-engine` — Python automation
+2. `Advent_of_code` — Python
+3. _(planned)_ `dnv-subsea-checks` — Python / subsea engineering
+4. `Workbench` — portfolio meta / planning hub _(optional)_
+
+---
+
+## Public repo policy
+
+Commercial apps (currently StillTime and PhotoFlow, and any future paid app) have their source code kept private permanently. Public repos are limited to tools, libraries, and learning work. The App Store serves as the public showcase for iOS apps.
 
 ---
 
@@ -104,10 +108,11 @@ Suggested pinned set (GitHub allows 6):
 
 - [ ] **Delete** `swift-learning` and `baby_sleep_sounds`
 - [ ] **Archive** `avofund-email-worker`, `tcp-invoices`, `photo-worker`
-- [ ] **Make public + add README** for `StillTime`, `PhotoFlow`, `Idea-engine`
+- [ ] **Make public + add README** for `Idea-engine`
 - [ ] **Add meaningful README** to `Advent_of_code`
-- [ ] **Add licence** to each Showcase repo
-- [ ] **Add screenshots / demo GIF** to `StillTime`, `PhotoFlow`, `Idea-engine`
+- [ ] **Add licence** to `Idea-engine` and `dnv-subsea-checks`
+- [ ] **Add a usage screenshot or demo GIF** to `Idea-engine`
 - [ ] **Rename** `app_dev_tool` to something accurate (e.g. `paper-trading-tool`)
 - [ ] **Create** `dnv-subsea-checks` — public Python library for DNV pipeline design checks (wall thickness DNV-ST-F101, free-span VIV, on-bottom stability DNV-RP-F109) with pytest suite and worked examples
-- [ ] **Pin** the four showcase repos once polished
+- [ ] **Pin** showcase repos once polished
+- [ ] **Identify** self-contained components in StillTime/PhotoFlow that could be extracted as public Swift packages
