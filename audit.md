@@ -18,9 +18,9 @@ The public repos visible without authentication: **Workbench**, **Advent\_of\_co
 |---|---|---|---|---|---|
 | Workbench | public | — | 2026-09-25 | Placeholder (11 bytes) | Planning hub (this repo) |
 | agent-sandbox | private | Python / Nix | 2026-09-22 | Minimal | GitHub-centred Claude agent loop experiments |
-| PhotoFlow | private | Swift | 2026-09-05 | **No** | Swift iOS photo workflow/management app |
+| PhotoFlow | private | Swift | 2026-09-05 | **No** | macOS photo ingest and archive app |
 | dev\_portfolio | private | TypeScript / Python | 2026-07-23 | No (has CLAUDE.md) | Monorepo: Next.js 15 portfolio site + photo CLI tools |
-| StillTime | private | Swift | 2026-07-09 | **No** | SwiftUI Pomodoro timer + AI-audio meditation app |
+| StillTime | private | Swift | 2026-07-09 | **No** | SwiftUI Pomodoro timer + AI-audio meditation app (iOS) |
 | Idea-engine | private | Python | 2026-07-06 | **No** | Elegant Claude-powered idea-scoring pipeline (stdlib-only) |
 | app\_dev\_tool | private | TypeScript / JS | 2026-06-22 | Yes (wrong name) | Paper-trading planner + Cloudflare backend (repo name is misleading) |
 | avofund-app | private, **archived** | Swift / TypeScript | 2026-02-22 | Yes (10 KB) | Fintech iOS budgeting app with Basiq banking API |
@@ -69,7 +69,7 @@ _Not counted: `JohnClema/pretty-fly-for-a-gemini` — not owned by this account.
 | Repo | Reason |
 |---|---|
 | **StillTime** | Commercial iOS app — source stays private permanently. Showcased via the App Store. |
-| **PhotoFlow** | Commercial iOS app — source stays private permanently. In development. |
+| **PhotoFlow** | Commercial macOS app — source stays private permanently. In development. |
 | **Workbench** | This planning hub. Currently public with a stub README; the CLAUDE.md gives it purpose. |
 | **dev\_portfolio** | Active working space: Next.js portfolio site + photo CLI tools + Hugo archive. Too scattered to showcase directly; keep private. |
 | **agent-sandbox** | Active Claude agent experiments; private experimentation space. |
@@ -89,7 +89,7 @@ _Not counted: `JohnClema/pretty-fly-for-a-gemini` — not owned by this account.
 
 ## Step 4 — Recommended pinned profile (after polish)
 
-Suggested pinned set (GitHub allows 6). iOS apps are showcased via the App Store; only public repos are pinned here.
+Suggested pinned set (GitHub allows 6). Commercial apps are showcased via the App Store / Mac App Store; only public repos are pinned here.
 
 1. `Idea-engine` — Python automation
 2. `Advent_of_code` — Python
@@ -100,7 +100,7 @@ Suggested pinned set (GitHub allows 6). iOS apps are showcased via the App Store
 
 ## Public repo policy
 
-Commercial apps (currently StillTime and PhotoFlow, and any future paid app) have their source code kept private permanently. Public repos are limited to tools, libraries, and learning work. The App Store serves as the public showcase for iOS apps.
+Commercial apps (currently StillTime and PhotoFlow, and any future paid app) have their source code kept private permanently. Public repos are limited to tools, libraries, and learning work. The App Store and Mac App Store serve as the public showcase for commercial apps.
 
 ---
 
